@@ -1,2 +1,3 @@
-Data/*
-!Data/TechnicalAnalysisData/*
+Data/SP500/*
+Data/database.ini
+Data/__pycache__
