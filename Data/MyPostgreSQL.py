@@ -46,6 +46,9 @@ class MyPostgreSQL:
         self.conn.close()
         print('Disconnected: the connection is now closed.')
 
+    def getConnCursor(self):
+        return (self.conn, self.cursor)
+
     def createSQLtable(self, ticker=''):
         #Create the table, named from the ticker
         if  ticker == '':
